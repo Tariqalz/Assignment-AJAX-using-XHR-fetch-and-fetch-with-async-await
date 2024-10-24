@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Now!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <h1>Weather Now!</h1>
+    <div class="weather-container">
+        <label for="city">City:</label>
+        <input type="text" id="city" value="Jeddah">
+        <button class="search-button" onclick="getWeather()">&#128269;</button>
+        <div class="weather-details" id="weather-details">
+            <div class="weather-box">
+                <div class="weather-title">High</div>
+                <div class="weather-value">___</div>
+            </div>
+            <div class="weather-box">
+                <div class="weather-title">Low</div>
+                <div class="weather-value">___</div>
+            </div>
+            <div class="weather-box">
+                <div class="weather-title">Feels Like</div>
+                <div class="weather-value">___</div>
+            </div>
+            <div class="weather-box">
+                <div class="weather-title">Humidity</div>
+                <div class="weather-value">___</div>
+            </div>
+            <div class="weather-box">
+                <div class="weather-title">
+                    <i class="fa fa-question-circle" style="font-size:36px"></i>
+                </div>
+                <div class="weather-value">___</div>
+            </div>
+            <div class="weather-box">
+                <div class="weather-title">Wind Speed</div>
+                <div class="weather-value">___</div>
+            </div>
+            <div class="weather-box">
+                <div class="weather-title">Visibility</div>
+                <div class="weather-value">___</div>
+            </div>
+            <div class="weather-box">
+                <div class="weather-title">Condition</div>
+                <div class="weather-value">___</div>
+            </div>
+            <div class="weather-box">
+                <div class="weather-title">UV Index</div>
+                <div class="weather-value">___</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
